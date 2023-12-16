@@ -1,6 +1,6 @@
 version: '3'
 
-name: nhrwp
+name: ${CONTAINER_NAME}
 
 services:
   wp:
@@ -72,3 +72,4 @@ volumes:
 
 networks:
   wpnet:
+

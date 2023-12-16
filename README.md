@@ -1,3 +1,5 @@
+https://github.com/chrisbmatthews/wordpress-docker-compose
+
 # WPDC - Wordpress Docker Compose
 
 #### Easy Wordpress development with Docker and Docker Compose

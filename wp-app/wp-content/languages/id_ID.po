@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.4.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-12-14 04:40:13+0000\n"
+"PO-Revision-Date: 2023-12-20 14:14:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -459,6 +459,11 @@ msgstr "Tidak dapat mengunjungi penutup tag di Prosesor HTML."
 msgid "Please pass a query array to this function."
 msgstr "Silakan berikan array kueri ke fungsi ini."
 
+#. translators: %s: WP_HTML_Processor::create_fragment().
+#: wp-includes/html-api/class-wp-html-processor.php:296
+msgid "Call %s to create an HTML Processor instead of calling the constructor directly."
+msgstr "Panggil %s untuk membuat Prosesor HTML alih-alih memanggil konstruktor secara langsung."
+
 #. translators: %s: The "type" key.
 #: wp-includes/functions.php:8811
 msgid "The %s key must be a string without spaces."
@@ -800,6 +805,16 @@ msgstr "Layar Edit Media sudah tidak digunakan lagi pada WordPress 6.3. Sebagai 
 #: wp-includes/functions.php:7202
 msgid "Object ID must be an integer, %s given."
 msgstr "ID objek harus integer, %s diberikan."
+
+#. translators: 1: $strategy, 2: $handle
+#: wp-includes/class-wp-scripts.php:853
+msgid "Cannot supply a strategy `%1$s` for script `%2$s` because it is an alias (it lacks a `src` value)."
+msgstr "Tidak dapat menyediakan strategi `%1$s` untuk script `%2$s` karena merupakan alias (tidak memiliki nilai `src`)."
+
+#. translators: 1: $strategy, 2: $handle
+#: wp-includes/class-wp-scripts.php:841
+msgid "Invalid strategy `%1$s` defined for `%2$s` during script registration."
+msgstr "Strategi `%1$s` tidak valid yang ditentukan untuk `%2$s` selama pendaftaran script."
 
 #: wp-includes/class-wp-post-type.php:991
 msgid "Page trashed."
